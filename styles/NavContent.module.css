@@ -1,0 +1,37 @@
+.main_menu {
+    display: flex;
+    list-style: none;
+    margin: auto 0;
+    padding: 0 0 0 0;
+
+}
+.main_menuli {
+    box-sizing: border-box;
+    height: 50px;
+    width: calc(3 * 50px);  
+    line-height: 50px;
+    padding: 0 2em;
+    margin: 1px;
+    transition: 0.5s linear all;
+    background: #3178C6;
+    color: #FFFFFF  ;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+.main_menuli {
+    clip-path: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+    shape-outside: polygon(10% 0%, 0% 100%, 95% 100%, 100% 50%, 95% 0%);
+}
+.main_menuli:nth-child(2) {
+    transform: translateX(-5%);
+}
+.main_menuli:nth-child(3) {
+    transform: translateX(-10%)
+}
+.main_menuli:nth-child(4) {
+    transform: translateX(-15%)
+}
+.main_menuli:hover {
+    filter: brightness(1.2);
+}

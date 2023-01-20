@@ -1,0 +1,23 @@
+.table {
+    width: 100%;
+}
+.th {
+    background-color: #283cae;
+    color: #fff;
+}
+.td1 {
+    width: 70px;
+    text-align: center;
+  }
+.td2 {
+    width: 150px;
+    text-align: center;
+}
+.td3 {
+    width: 300px;
+    text-align: center;
+}
+.td4 {
+    width: 200px;
+    text-align: center;
+}
